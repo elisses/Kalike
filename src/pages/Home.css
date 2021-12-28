@@ -18,17 +18,18 @@
 }
 .home_text p {
    padding: 15px;
-    font-size: 45px;
-    color: #fff;
+   font-size: calc(12px + (45 - 12) * ((100vw - 300px) / (1600 - 300)));    
+   color: #fff;
 
 }
 
 .home_text p:nth-child(1){
-    font-size: 50px;
+    font-size: calc(12px + (50 - 12) * ((100vw - 300px) / (1600 - 300)));    
+
 }
 
 .home_text p:nth-child(3){
-    font-size: 40px;
+    font-size: calc(12px + (40 - 12) * ((100vw - 300px) / (1600 - 300)));    
 }
 
 

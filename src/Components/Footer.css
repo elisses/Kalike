@@ -1,0 +1,32 @@
+.footer_components {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 10%;
+    background-color: #CFC036;
+}
+.footer_components {
+    color:#424242;
+}
+
+.footer_components ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_components ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: large;    
+}
+
+.footer_components a i{
+    cursor: pointer;
+    color:#424242;
+}
+
+.footer_components a i:hover {
+    color: #fff;
+}

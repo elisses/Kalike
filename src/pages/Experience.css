@@ -1,0 +1,15 @@
+.wrapper_experience {
+    display: flex;
+    padding: 30px 10%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+
+.client img{
+    width: 5%;
+    border: 2px solid #CFC036;
+    border-radius: 50px;
+}

@@ -1,12 +1,28 @@
 .wrapper_experience {
     display: flex;
+    flex-grow: 1;
+    flex-direction: row;
     padding: 30px 10%;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
-    height: 100vh;
+    align-items: center;
 }
 
+.fedback {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+.fedback .client  {
+    display: flex;
+    flex-direction: row;
+}
+
+.fedback .client  p {
+    display: flex;
+    flex-direction: column;
+}
 
 .client img{
     width: 5%;

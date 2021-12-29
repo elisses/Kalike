@@ -8,7 +8,7 @@ const PageNotFound = () => {
         <div className="pageNotFound">
 
             <h1>Oops..! 404 Page Not Found</h1>
-            <img src={pagenotfoundImage} height="500" width="500" alt="not found" />
+            <img src={pagenotfoundImage} height="400" width="400" alt="not found" />
         </div>
     )
 }

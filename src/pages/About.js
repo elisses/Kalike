@@ -2,6 +2,7 @@ import React from 'react';
 import PictureOne from '../image/pictureOne.png';
 import PictureTwo from '../image/pictureTwo.png';
 import PictureThree from '../image/pictureThree.png';
+import Class from '../image/class.jpeg';
 
 import './About.css';
 
@@ -27,6 +28,9 @@ const About = () => {
                 </div>
                 <div className='img_03'>
                     <img src={PictureThree} alt='#' />
+                </div>
+                <div className='img_04'>
+                    <img src={Class} alt='#' />
                 </div>
 
             </div>

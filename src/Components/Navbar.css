@@ -41,3 +41,21 @@ header{
     border-bottom: 1px solid #ffff;
 }
 
+@media all and (max-width: 480px) {
+    header{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    
+
+.nav_links li {
+    display: inline-block;
+    flex-direction: row;
+    font-size: 12px;
+    padding: 0;
+}
+
+    
+}
+

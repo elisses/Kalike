@@ -1,7 +1,7 @@
 import React from 'react';
 import YouTube from 'react-youtube';
 import "./Experience.css";
-import Kalike from '../image/kalike.png';
+import Client from '../image/eu3.jpg';
 
 
 const Experience = () => {
@@ -23,32 +23,39 @@ const Experience = () => {
     return (
         <div className='wrapper_experience'>
             <div className='video'>
-                <YouTube videoId={videoCode} opts={opts} videoOnReady={(e) => videoOnReady(e)} />
+                <YouTube className='youtube' videoId={videoCode} opts={opts} videoOnReady={(e) => videoOnReady(e)} />
             </div>
             <div className='fedback'>
                 <div className='client'>
-                    <img src={Kalike} alt='#' />
-                    <p>Name</p>
-                    <p>
-                        Lorem Ipsum jest tekstem stosowanym jako przykładowy
-                        wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
-                    </p>
+                    <img src={Client} alt='#' />
+                    <div className='client_fed'>
+                        <p>Name</p>
+                        <p>
+                            Lorem Ipsum jest tekstem stosowanym jako przykładowy
+                            wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
+                        </p>
+                    </div>
+
                 </div>
                 <div className='client'>
-                    <img src={Kalike} alt='#' />
-                    <p>Name</p>
-                    <p>
-                        Lorem Ipsum jest tekstem stosowanym jako przykładowy
-                        wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
-                    </p>
+                    <img src={Client} alt='#' />
+                    <div className='client_fed'>
+                        <p>Name</p>
+                        <p>
+                            Lorem Ipsum jest tekstem stosowanym jako przykładowy
+                            wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
+                        </p>
+                    </div>
                 </div>
                 <div className='client'>
-                    <img src={Kalike} alt='#' />
-                    <p>Name</p>
-                    <p>
-                        Lorem Ipsum jest tekstem stosowanym jako przykładowy
-                        wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
-                    </p>
+                    <img src={Client} alt='#' />
+                    <div className='client_fed'>
+                        <p>Name</p>
+                        <p>
+                            Lorem Ipsum jest tekstem stosowanym jako przykładowy
+                            wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
+                        </p>
+                    </div>
                 </div>
 
             </div>

@@ -3,9 +3,18 @@
     flex-grow: 1;
     flex-direction: row;
     padding: 30px 10%;
-    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    background-color:#424242;
+}
+
+.video {
+    padding: 30px;
+}
+
+.video .youtube {
+    border: 3px solid #CFC036;
+    border-radius: 15px;
+
 }
 
 .fedback {
@@ -13,6 +22,7 @@
     flex-direction: column;
     flex: 1;
     padding: 20px;
+   justify-content: space-around;
 }
 .fedback .client  {
     display: flex;
@@ -23,9 +33,18 @@
     display: flex;
     flex-direction: column;
 }
+.client_fed {
+    padding: 8px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.client_fed p:first-child {
+    font-weight: 700;
+}
 
 .client img{
-    width: 5%;
+    width: 15%;
     border: 2px solid #CFC036;
     border-radius: 50px;
 }

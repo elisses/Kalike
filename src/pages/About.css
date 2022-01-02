@@ -59,3 +59,38 @@
     transform: rotate(-10deg);   
     border: 3px solid #CFC036;
 }  
+
+@media all and (max-width: 480px) {
+    .wrapper_about {
+        flex-direction: column;
+    }
+
+.about_picture {
+    flex-direction: row;    
+    flex-direction: column; 
+}
+
+.about_picture .img_01 {
+    display: flex;
+    justify-content: center;
+} 
+
+.about_picture .img_01 img{
+    transform: rotate(0deg); 
+    margin-right: 0px;     
+} 
+.about_picture .img_02 img{
+    width: 100%;
+    transform: rotate(0deg);   
+} 
+
+.about_picture .img_03 img{
+    display: none;
+} 
+
+
+.about_picture .img_04 img{
+    display: none;
+}  
+    
+}

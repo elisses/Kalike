@@ -27,7 +27,9 @@ const Experience = () => {
             </div>
             <div className='fedback'>
                 <div className='client'>
-                    <img src={Client} alt='#' />
+                    <div className='picture_client'>
+                        <img src={Client} alt='#' />
+                    </div>
                     <div className='client_fed'>
                         <p>Elis Fernanda</p>
                         <p>
@@ -37,26 +39,29 @@ const Experience = () => {
 
                 </div>
                 <div className='client'>
-                    <img src={Client} alt='#' />
+                    <div className='picture_client'>
+                        <img src={Client} alt='#' />
+                    </div>
                     <div className='client_fed'>
-                        <p>Name</p>
+                        <p>Elis Fernanda</p>
                         <p>
-                            Lorem Ipsum jest tekstem stosowanym jako przykładowy
-                            wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
+                            I'm having a opportunity to learn english with great teacher. In few months my english grow up very faster.
                         </p>
                     </div>
+
                 </div>
                 <div className='client'>
-                    <img src={Client} alt='#' />
+                    <div className='picture_client'>
+                        <img src={Client} alt='#' />
+                    </div>
                     <div className='client_fed'>
-                        <p>Name</p>
+                        <p>Elis Fernanda</p>
                         <p>
-                            Lorem Ipsum jest tekstem stosowanym jako przykładowy
-                            wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
+                            I'm having a opportunity to learn english with great teacher. In few months my english grow up very faster.
                         </p>
                     </div>
-                </div>
 
+                </div>
             </div>
 
         </div>

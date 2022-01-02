@@ -46,8 +46,23 @@
     color: #CFC036;
 }
 
+.picture_client{
+    width: 250px;
+}
+
 .client img{
-    width: 15%;
-    border: 2px solid #CFC036;
-    border-radius: 50px;
+    width: 100%;
+    border: 3px solid #CFC036;
+    border-radius: 0 50% 50% 50%;
+}
+
+@media all and (max-width: 480px) {
+    .wrapper_experience {
+     
+        flex-direction: column;
+    }
+    .youtube {
+        width: 350px;
+        height: 250px;
+    }   
 }

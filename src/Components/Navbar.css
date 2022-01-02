@@ -52,8 +52,11 @@ header{
 .nav_links li {
     display: inline-block;
     flex-direction: row;
-    font-size: 12px;
     padding: 0;
+}
+
+.nav_links li a {
+    font-size: 12px;
 }
 
     

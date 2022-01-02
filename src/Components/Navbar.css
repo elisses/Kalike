@@ -41,7 +41,28 @@ header{
     border-bottom: 1px solid #ffff;
 }
 
-@media all and (max-width: 480px) {
+@media (min-width: 779px) and ( max-width: 1100px){
+    .nav_links li a {
+        font-size: 16px;
+        padding: 0px;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 778px){
+
+    header {
+        flex-direction: column;
+    }
+    .nav_links li a {
+        margin-top: 5px;
+        font-size: 16px;
+        padding: 0px;
+    }
+    
+}
+
+@media  (max-width: 480px) {
     header{
         flex-direction: column;
         padding: 0;

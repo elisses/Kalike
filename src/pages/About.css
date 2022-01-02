@@ -60,7 +60,7 @@
     border: 3px solid #CFC036;
 }  
 
-@media all and (max-width: 480px) {
+@media (max-width: 812px) {
     .wrapper_about {
         flex-direction: column;
     }

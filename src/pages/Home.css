@@ -12,19 +12,20 @@
 .home_text {
     display: flex;
     flex-direction: column;
-    justify-content: inherit;
+    justify-content: center;
     flex: 1;
     padding: 30px;
     letter-spacing: 1.5px;
 }
 .home_text p {
    padding: 15px;
-   font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));    
+   font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));    
    color: #fff;
 
 }
 
-.home_text p:nth-child(1){
+.home_text p:nth-child(2){
+     color: #CFC036;
     font-weight: 700;
     font-size: calc(12px + (28 - 12) * ((100vw - 300px) / (1600 - 300)));    
 

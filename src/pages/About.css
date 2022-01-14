@@ -88,9 +88,11 @@
     display: none;
 } 
 
-
 .about_picture .img_04 img{
     display: none;
 }  
+.about_text{
+   padding: 0;
+} 
     
 }

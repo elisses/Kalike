@@ -1,7 +1,9 @@
 import React from 'react';
 import YouTube from 'react-youtube';
 import "./Experience.css";
-import Client from '../image/eu3.jpg';
+import Client from '../image/student.png';
+import Client1 from '../image/student1.png';
+import Client2 from '../image/student2.png';
 
 
 const Experience = () => {
@@ -23,7 +25,10 @@ const Experience = () => {
     return (
         <div className='wrapper_experience'>
             <div className='video'>
-                <YouTube className='youtube' videoId={videoCode} opts={opts} videoOnReady={(e) => videoOnReady(e)} />
+                <div className='boxVideo'>
+                    <YouTube className='youtube' videoId={videoCode} opts={opts} videoOnReady={(e) => videoOnReady(e)} />
+
+                </div>
             </div>
             <div className='fedback'>
                 <div className='client'>
@@ -40,24 +45,26 @@ const Experience = () => {
                 </div>
                 <div className='client'>
                     <div className='picture_client'>
-                        <img src={Client} alt='#' />
+                        <img src={Client1} alt='#' />
                     </div>
                     <div className='client_fed'>
-                        <p>Elis Fernanda</p>
+                        <p>Mohammad Noor</p>
                         <p>
-                            I'm having a opportunity to learn english with great teacher. In few months my english grow up very faster.
+                            When I started taking English lessons I could only understand Arabic and now I'm studying for
+                            a bachelor's degree in civil engineering using the language. Thanks to the patience
+                            and dedication of Mwila.
                         </p>
                     </div>
 
                 </div>
                 <div className='client'>
                     <div className='picture_client'>
-                        <img src={Client} alt='#' />
+                        <img src={Client2} alt='#' />
                     </div>
                     <div className='client_fed'>
-                        <p>Elis Fernanda</p>
+                        <p>Athar Khan</p>
                         <p>
-                            I'm having a opportunity to learn english with great teacher. In few months my english grow up very faster.
+                            I have been taking English lessons from Kaliki for 4 months now and found it helpful in my search for employment.
                         </p>
                     </div>
 

@@ -18,7 +18,7 @@ const Home = () => {
                 <ul>
                     <li className='social'><a href="/#"><i class="fab fa-youtube"></i></a></li>
                     <li className='social'><a href="https://www.facebook.com/UpThinQ.Global"><i class="fab fa-facebook-f"></i></a></li>
-                    <li className='social'><a href="/#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li className='social'><a href="https://linkedin.com/in/henry-kaliki-mwila-24930919a"><i class="fab fa-linkedin-in"></i></a></li>
                     <li className='social'><a href="https://web.whatsapp.com/send?phone=+919592017793"><i class="fab fa-whatsapp"></i></a></li>
                 </ul>
             </div>
